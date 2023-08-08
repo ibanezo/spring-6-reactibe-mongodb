@@ -2,7 +2,6 @@ package com.example.reactivemongo.web.fn;
 
 import com.example.reactivemongo.model.BeerDTO;
 import com.example.reactivemongo.services.BeerService;
-import com.mongodb.internal.connection.Server;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;

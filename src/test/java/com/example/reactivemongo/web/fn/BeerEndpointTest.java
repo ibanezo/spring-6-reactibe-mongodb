@@ -3,7 +3,6 @@ package com.example.reactivemongo.web.fn;
 import com.example.reactivemongo.domain.Beer;
 import com.example.reactivemongo.model.BeerDTO;
 import com.example.reactivemongo.services.BeerServiceImplTest;
-import lombok.AllArgsConstructor;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -18,7 +17,8 @@ import reactor.core.publisher.Mono;
 
 import java.util.List;
 
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.greaterThan;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @SpringBootTest
